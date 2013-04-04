@@ -1,1 +1,0 @@
-pandoc --toc -f markdown docs/docco.js.html -o docco.pdf
