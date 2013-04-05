@@ -1,8 +1,8 @@
 # pandocco
 
-> docco+pandoc+LaTeX output to PDF
+> simple PDF output for docco
 
-simple PDF output with
+Just an example script and templates.
 
 - [docco][] + plain-markdown template
 - [pandoc][] + pandocco latex template
