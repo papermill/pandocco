@@ -14,7 +14,7 @@ The example script checks out some git repos. Some are for the needed tempate, s
 
 1. **Covert the source code to markdown** (`docco`)  
    - `docco` converts your source code by seperating the code (the programm) from the comments
-     - code is outputed in HTML <pre> elements (plus syntax higlighting etc)
+     - code is outputed in HTML `<pre>` elements (plus syntax higlighting etc)
      - the comments are seperated, the comment markers (like `#` and `//`) are removed and run through a markdown to HTML converter
    - since `docco` originally generates HTML (already converting the markdown), I made a very minimal template which outputs just plain markdown.
      - the code is just put into <kbd>```</kbd> "code fences", which are supported by pandoc (and github!)
