@@ -8,6 +8,23 @@ Just an example script and templates.
 - [pandoc][] + pandocco latex template
 
 
+## How does it work?
+
+The example script checks out some git repos. Some are for the needed tempate, some are just example content.
+
+1. **Covert the source code to markdown** (`docco`)  
+   - `docco` converts your source code by seperating the code (the programm) from the comments
+     - code is outputed in HTML <pre> elements (plus syntax higlighting etc)
+     - the comments are seperated, the comment markers (like `#` and `//`) are removed and run through a markdown to HTML converter
+   - since `docco` originally generates HTML (already converting the markdown), I made a very minimal template which outputs just plain markdown.
+     - the code is just put into <kbd>```</kbd> "code fences", which are supported by pandoc (and github!)
+     - the comments just have their marker removed and are otherwise untouched (since markdown conversion is handled by pandoc)
+
+2. **Convert the generated markdown to PDF**
+   - `pandoc` can output to not just HTML, but also LaTeX and directly to PDF (you'll still need a LaTeX installation, for the minimum ask your package manager for `pdflatex`.)
+   - there are lots of options and flags, you can use the example script as a starting point
+
+
 ## examples:
 - [docco.pdf](http://papermill.github.com/pandocco/examples/docco.pdf)
 - [backbone.pdf](http://papermill.github.com/pandocco/examples/backbone.pdf)
