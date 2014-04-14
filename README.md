@@ -26,24 +26,24 @@ The example script checks out some git repos. Some are for the needed tempate, s
 
 
 ## examples:
-- [docco.pdf](http://papermill.github.com/pandocco/examples/docco.pdf)
-- [backbone.pdf](http://papermill.github.com/pandocco/examples/backbone.pdf)
-- coffeescript's [scope.js](http://papermill.github.com/pandocco/examples/scope.pdf)
-- [underscore.pdf](http://papermill.github.com/pandocco/examples/underscore.pdf)
+- [docco.pdf](http://code.papermill.in/pandocco/examples/docco.pdf)
+- [backbone.pdf](http://code.papermill.in/pandocco/examples/backbone.pdf)
+- coffeescript's [scope.js](http://code.papermill.in/pandocco/examples/scope.pdf)
+- [underscore.pdf](http://code.papermill.in/pandocco/examples/underscore.pdf)
 
 ## Screenshot
 
 ---
 
-![docco.pdf screenshot](http://papermill.github.com/pandocco/examples/docco-screenshot.png)
+![docco.pdf screenshot](http://code.papermill.in/pandocco/examples/docco-screenshot.png)
 
 ---
 
 ## bonus:
-- [underscore.epub](http://papermill.github.com/pandocco/examples/underscore.epub)
-- [underscore.latex.txt](http://papermill.github.com/pandocco/examples/underscore.latex.txt)
-- [underscore.asciidoc.txt](http://papermill.github.com/pandocco/examples/underscore.asciidoc.txt)
-- [underscore.mediawiki.txt](http://papermill.github.com/pandocco/examples/underscore.mediawiki.txt)
+- [underscore.epub](http://code.papermill.in/pandocco/examples/underscore.epub)
+- [underscore.latex.txt](http://code.papermill.in/pandocco/examples/underscore.latex.txt)
+- [underscore.asciidoc.txt](http://code.papermill.in/pandocco/examples/underscore.asciidoc.txt)
+- [underscore.mediawiki.txt](http://code.papermill.in/pandocco/examples/underscore.mediawiki.txt)
 
 
 [docco]: https://github.com/jashkenas/docco
